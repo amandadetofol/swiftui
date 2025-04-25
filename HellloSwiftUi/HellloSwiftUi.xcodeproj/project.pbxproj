@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E88F1872DAD27B400224111 /* HellloSwiftUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88F1862DAD27B400224111 /* HellloSwiftUiApp.swift */; };
+		6E88F1892DAD27B400224111 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88F1882DAD27B400224111 /* Persistence.swift */; };
+		6E88F18C2DAD27B400224111 /* HellloSwiftUi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6E88F18A2DAD27B400224111 /* HellloSwiftUi.xcdatamodeld */; };
+		6E88F18E2DAD27B400224111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88F18D2DAD27B400224111 /* ContentView.swift */; };
+		6E88F1902DAD27B600224111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E88F18F2DAD27B600224111 /* Assets.xcassets */; };
+		6E88F1942DAD27B600224111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E88F1932DAD27B600224111 /* Preview Assets.xcassets */; };
+		6E88F19E2DAD27B600224111 /* HellloSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88F19D2DAD27B600224111 /* HellloSwiftUiTests.swift */; };
+		6E88F1A82DAD27B600224111 /* HellloSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88F1A72DAD27B600224111 /* HellloSwiftUiUITests.swift */; };
+		6E88F1AA2DAD27B600224111 /* HellloSwiftUiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88F1A92DAD27B600224111 /* HellloSwiftUiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E88F19A2DAD27B600224111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E88F17B2DAD27B400224111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E88F1822DAD27B400224111;
+			remoteInfo = HellloSwiftUi;
+		};
+		6E88F1A42DAD27B600224111 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E88F17B2DAD27B400224111 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E88F1822DAD27B400224111;
+			remoteInfo = HellloSwiftUi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E88F1832DAD27B400224111 /* HellloSwiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellloSwiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E88F1862DAD27B400224111 /* HellloSwiftUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellloSwiftUiApp.swift; sourceTree = "<group>"; };
+		6E88F1882DAD27B400224111 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6E88F18B2DAD27B400224111 /* HellloSwiftUi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HellloSwiftUi.xcdatamodel; sourceTree = "<group>"; };
+		6E88F18D2DAD27B400224111 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E88F18F2DAD27B600224111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E88F1912DAD27B600224111 /* HellloSwiftUi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HellloSwiftUi.entitlements; sourceTree = "<group>"; };
+		6E88F1932DAD27B600224111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E88F1992DAD27B600224111 /* HellloSwiftUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellloSwiftUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E88F19D2DAD27B600224111 /* HellloSwiftUiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellloSwiftUiTests.swift; sourceTree = "<group>"; };
+		6E88F1A32DAD27B600224111 /* HellloSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellloSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E88F1A72DAD27B600224111 /* HellloSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellloSwiftUiUITests.swift; sourceTree = "<group>"; };
+		6E88F1A92DAD27B600224111 /* HellloSwiftUiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellloSwiftUiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E88F1802DAD27B400224111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E88F1962DAD27B600224111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E88F1A02DAD27B600224111 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E88F17A2DAD27B400224111 = {
+			isa = PBXGroup;
+			children = (
+				6E88F1852DAD27B400224111 /* HellloSwiftUi */,
+				6E88F19C2DAD27B600224111 /* HellloSwiftUiTests */,
+				6E88F1A62DAD27B600224111 /* HellloSwiftUiUITests */,
+				6E88F1842DAD27B400224111 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E88F1842DAD27B400224111 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E88F1832DAD27B400224111 /* HellloSwiftUi.app */,
+				6E88F1992DAD27B600224111 /* HellloSwiftUiTests.xctest */,
+				6E88F1A32DAD27B600224111 /* HellloSwiftUiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E88F1852DAD27B400224111 /* HellloSwiftUi */ = {
+			isa = PBXGroup;
+			children = (
+				6E88F1862DAD27B400224111 /* HellloSwiftUiApp.swift */,
+				6E88F1882DAD27B400224111 /* Persistence.swift */,
+				6E88F18D2DAD27B400224111 /* ContentView.swift */,
+				6E88F18F2DAD27B600224111 /* Assets.xcassets */,
+				6E88F1912DAD27B600224111 /* HellloSwiftUi.entitlements */,
+				6E88F18A2DAD27B400224111 /* HellloSwiftUi.xcdatamodeld */,
+				6E88F1922DAD27B600224111 /* Preview Content */,
+			);
+			path = HellloSwiftUi;
+			sourceTree = "<group>";
+		};
+		6E88F1922DAD27B600224111 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E88F1932DAD27B600224111 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E88F19C2DAD27B600224111 /* HellloSwiftUiTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E88F19D2DAD27B600224111 /* HellloSwiftUiTests.swift */,
+			);
+			path = HellloSwiftUiTests;
+			sourceTree = "<group>";
+		};
+		6E88F1A62DAD27B600224111 /* HellloSwiftUiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E88F1A72DAD27B600224111 /* HellloSwiftUiUITests.swift */,
+				6E88F1A92DAD27B600224111 /* HellloSwiftUiUITestsLaunchTests.swift */,
+			);
+			path = HellloSwiftUiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E88F1822DAD27B400224111 /* HellloSwiftUi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E88F1AD2DAD27B600224111 /* Build configuration list for PBXNativeTarget "HellloSwiftUi" */;
+			buildPhases = (
+				6E88F17F2DAD27B400224111 /* Sources */,
+				6E88F1802DAD27B400224111 /* Frameworks */,
+				6E88F1812DAD27B400224111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellloSwiftUi;
+			productName = HellloSwiftUi;
+			productReference = 6E88F1832DAD27B400224111 /* HellloSwiftUi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E88F1982DAD27B600224111 /* HellloSwiftUiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E88F1B02DAD27B600224111 /* Build configuration list for PBXNativeTarget "HellloSwiftUiTests" */;
+			buildPhases = (
+				6E88F1952DAD27B600224111 /* Sources */,
+				6E88F1962DAD27B600224111 /* Frameworks */,
+				6E88F1972DAD27B600224111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E88F19B2DAD27B600224111 /* PBXTargetDependency */,
+			);
+			name = HellloSwiftUiTests;
+			productName = HellloSwiftUiTests;
+			productReference = 6E88F1992DAD27B600224111 /* HellloSwiftUiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E88F1A22DAD27B600224111 /* HellloSwiftUiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E88F1B32DAD27B600224111 /* Build configuration list for PBXNativeTarget "HellloSwiftUiUITests" */;
+			buildPhases = (
+				6E88F19F2DAD27B600224111 /* Sources */,
+				6E88F1A02DAD27B600224111 /* Frameworks */,
+				6E88F1A12DAD27B600224111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E88F1A52DAD27B600224111 /* PBXTargetDependency */,
+			);
+			name = HellloSwiftUiUITests;
+			productName = HellloSwiftUiUITests;
+			productReference = 6E88F1A32DAD27B600224111 /* HellloSwiftUiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E88F17B2DAD27B400224111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6E88F1822DAD27B400224111 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6E88F1982DAD27B600224111 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6E88F1822DAD27B400224111;
+					};
+					6E88F1A22DAD27B600224111 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6E88F1822DAD27B400224111;
+					};
+				};
+			};
+			buildConfigurationList = 6E88F17E2DAD27B400224111 /* Build configuration list for PBXProject "HellloSwiftUi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E88F17A2DAD27B400224111;
+			productRefGroup = 6E88F1842DAD27B400224111 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E88F1822DAD27B400224111 /* HellloSwiftUi */,
+				6E88F1982DAD27B600224111 /* HellloSwiftUiTests */,
+				6E88F1A22DAD27B600224111 /* HellloSwiftUiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E88F1812DAD27B400224111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E88F1942DAD27B600224111 /* Preview Assets.xcassets in Resources */,
+				6E88F1902DAD27B600224111 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E88F1972DAD27B600224111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E88F1A12DAD27B600224111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E88F17F2DAD27B400224111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E88F1872DAD27B400224111 /* HellloSwiftUiApp.swift in Sources */,
+				6E88F18C2DAD27B400224111 /* HellloSwiftUi.xcdatamodeld in Sources */,
+				6E88F18E2DAD27B400224111 /* ContentView.swift in Sources */,
+				6E88F1892DAD27B400224111 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E88F1952DAD27B600224111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E88F19E2DAD27B600224111 /* HellloSwiftUiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E88F19F2DAD27B600224111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E88F1AA2DAD27B600224111 /* HellloSwiftUiUITestsLaunchTests.swift in Sources */,
+				6E88F1A82DAD27B600224111 /* HellloSwiftUiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E88F19B2DAD27B600224111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E88F1822DAD27B400224111 /* HellloSwiftUi */;
+			targetProxy = 6E88F19A2DAD27B600224111 /* PBXContainerItemProxy */;
+		};
+		6E88F1A52DAD27B600224111 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E88F1822DAD27B400224111 /* HellloSwiftUi */;
+			targetProxy = 6E88F1A42DAD27B600224111 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E88F1AB2DAD27B600224111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E88F1AC2DAD27B600224111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6E88F1AE2DAD27B600224111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HellloSwiftUi/HellloSwiftUi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HellloSwiftUi/Preview Content\"";
+				DEVELOPMENT_TEAM = U86N567J6N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HellloSwiftUi.HellloSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E88F1AF2DAD27B600224111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HellloSwiftUi/HellloSwiftUi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HellloSwiftUi/Preview Content\"";
+				DEVELOPMENT_TEAM = U86N567J6N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HellloSwiftUi.HellloSwiftUi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E88F1B12DAD27B600224111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U86N567J6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HellloSwiftUi.HellloSwiftUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellloSwiftUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HellloSwiftUi";
+			};
+			name = Debug;
+		};
+		6E88F1B22DAD27B600224111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U86N567J6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HellloSwiftUi.HellloSwiftUiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellloSwiftUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HellloSwiftUi";
+			};
+			name = Release;
+		};
+		6E88F1B42DAD27B600224111 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U86N567J6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HellloSwiftUi.HellloSwiftUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HellloSwiftUi;
+			};
+			name = Debug;
+		};
+		6E88F1B52DAD27B600224111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U86N567J6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = HellloSwiftUi.HellloSwiftUiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HellloSwiftUi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E88F17E2DAD27B400224111 /* Build configuration list for PBXProject "HellloSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E88F1AB2DAD27B600224111 /* Debug */,
+				6E88F1AC2DAD27B600224111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E88F1AD2DAD27B600224111 /* Build configuration list for PBXNativeTarget "HellloSwiftUi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E88F1AE2DAD27B600224111 /* Debug */,
+				6E88F1AF2DAD27B600224111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E88F1B02DAD27B600224111 /* Build configuration list for PBXNativeTarget "HellloSwiftUiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E88F1B12DAD27B600224111 /* Debug */,
+				6E88F1B22DAD27B600224111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E88F1B32DAD27B600224111 /* Build configuration list for PBXNativeTarget "HellloSwiftUiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E88F1B42DAD27B600224111 /* Debug */,
+				6E88F1B52DAD27B600224111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6E88F18A2DAD27B400224111 /* HellloSwiftUi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6E88F18B2DAD27B400224111 /* HellloSwiftUi.xcdatamodel */,
+			);
+			currentVersion = 6E88F18B2DAD27B400224111 /* HellloSwiftUi.xcdatamodel */;
+			path = HellloSwiftUi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6E88F17B2DAD27B400224111 /* Project object */;
+}
